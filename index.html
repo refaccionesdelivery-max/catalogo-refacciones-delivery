@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Catálogo | Refacciones Delivery</title>
+<style>
+:root{--azul:#062b52;--azul2:#0b4f8a;--gris:#eef2f6;--acero:#657281;--dark:#111827;--whats:#25D366;}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f5f7fa;color:var(--dark)}
+.header{background:linear-gradient(135deg,var(--azul),#071827);color:white;padding:28px 6vw 34px;position:relative;overflow:hidden}
+.header:after{content:"";position:absolute;inset:auto -90px -120px auto;width:360px;height:360px;border-radius:50%;background:rgba(255,255,255,.06)}
+.badge{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);padding:8px 12px;border-radius:999px;font-size:13px;margin-bottom:14px}
+h1{font-size:clamp(30px,5vw,58px);margin:0 0 8px;letter-spacing:-1px}.sub{max-width:850px;font-size:18px;line-height:1.45;color:#dbeafe}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.btn{border:0;border-radius:10px;padding:13px 16px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+.btn-primary{background:white;color:var(--azul)}.btn-wa{background:var(--whats);color:#06351a}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(140px,1fr));gap:12px;padding:0 6vw;margin-top:-24px;position:relative;z-index:2}
+.stat{background:white;border-radius:16px;padding:18px;box-shadow:0 10px 30px rgba(2,16,40,.12);border:1px solid #e5e7eb}.stat b{font-size:25px;color:var(--azul);display:block}.stat span{font-size:13px;color:var(--acero)}
+.wrap{padding:28px 6vw 50px}.panel{background:white;border-radius:18px;padding:20px;box-shadow:0 8px 24px rgba(2,16,40,.08);border:1px solid #e5e7eb;margin-bottom:22px}
+.searchbar{display:grid;grid-template-columns:1.8fr .9fr .7fr;gap:12px}input,select{width:100%;border:1px solid #cbd5e1;border-radius:12px;padding:14px 14px;font-size:15px;background:white}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}.card{background:white;border:1px solid #e5e7eb;border-radius:16px;padding:16px;box-shadow:0 4px 14px rgba(2,16,40,.05);display:flex;flex-direction:column;min-height:230px}
+.tag{font-size:12px;background:#eaf2fb;color:var(--azul);padding:6px 9px;border-radius:999px;width:max-content;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card h3{margin:12px 0 8px;font-size:18px;color:#082f49}.desc{font-size:14px;line-height:1.35;color:#475569;flex:1}.meta{font-size:13px;color:#64748b;margin-top:10px}.code{font-family:monospace;background:#f1f5f9;border-radius:8px;padding:5px 7px;color:#0f172a}
+.card .card-actions{display:flex;gap:8px;margin-top:14px}.small{font-size:12px;padding:10px 12px;border-radius:9px;background:#f8fafc;color:#0f172a;border:1px solid #e2e8f0;text-decoration:none;font-weight:700}.wa-small{background:var(--whats);color:#06351a;border:0}
+.section-title{display:flex;justify-content:space-between;gap:12px;align-items:end;margin:0 0 16px}.section-title h2{margin:0;color:var(--azul)}#count{color:#64748b;font-weight:700}
+.footer{background:#071827;color:#cbd5e1;padding:25px 6vw;font-size:14px}.footer b{color:white}
+@media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.searchbar{grid-template-columns:1fr}.header{padding-top:22px}}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="badge">Catálogo digital B2B · Refacciones industriales</div>
+  <h1>Refacciones Delivery</h1>
+  <div class="sub">Suministro de refacciones para minería, construcción, diésel ligero, tractocamión y maquinaria pesada. Búsqueda por número de parte, descripción, aplicación o categoría.</div>
+  <div class="actions">
+    <a class="btn btn-primary" href="#catalogo">Ver catálogo</a>
+    <a class="btn btn-wa" target="_blank" href="https://wa.me/526181950701?text=Hola%20Refacciones%20Delivery,%20quiero%20solicitar%20una%20cotizaci%C3%B3n">Cotizar por WhatsApp</a>
+  </div>
+</header>
+<section class="stats">
+  <div class="stat"><b>993</b><span>productos cargados</span></div>
+  <div class="stat"><b>71</b><span>facturas último mes</span></div>
+  <div class="stat"><b>17</b><span>clientes atendidos en mayo</span></div>
+  <div class="stat"><b>MXN $2,375,382</b><span>operación registrada en mayo</span></div>
+</section>
+<main class="wrap" id="catalogo">
+  <section class="panel">
+    <div class="section-title"><h2>Buscar refacciones</h2><div id="count"></div></div>
+    <div class="searchbar">
+      <input id="q" placeholder="Buscar por No. parte, producto, aplicación... Ej. Hilux, marcha, 6696" />
+      <select id="cat"><option value="">Todas las categorías</option></select>
+      <select id="sort"><option value="az">Orden A-Z</option><option value="clave">Clave</option><option value="precio">Precio lista</option></select>
+    </div>
+  </section>
+  <section class="grid" id="grid"></section>
+</main>
+<footer class="footer"><b>Refacciones Delivery</b> · Importación EUA / China · Crédito empresarial · Envíos a toda la República · Atención por WhatsApp</footer>
+<script>
+let PRODUCTS=[]; const PHONE='526181950701';
+const money=n=> n>0 ? '$'+Number(n).toLocaleString('es-MX',{minimumFractionDigits:2,maximumFractionDigits:2}) : 'Cotizar';
+async function init(){ PRODUCTS=await fetch('productos.json').then(r=>r.json()); buildCats(); render(); }
+function buildCats(){ const cats=[...new Set(PRODUCTS.map(p=>p.categoria).filter(Boolean))].sort(); const sel=document.getElementById('cat'); cats.forEach(c=>{let o=document.createElement('option');o.value=c;o.textContent=c;sel.appendChild(o)}); }
+function card(p){ const text=encodeURIComponent(`Hola Refacciones Delivery, quiero cotizar esta pieza:
+Clave: ${p.clave}
+Producto: ${p.producto}`); return `<article class="card"><div class="tag">${esc(p.categoria||'Refacciones')}</div><h3>${esc(p.producto)}</h3><div class="desc">${esc(p.descripcion||'Solicita ficha técnica y disponibilidad.')}</div><div class="meta">Clave: <span class="code">${esc(p.clave||'S/C')}</span></div><div class="meta">Unidad: ${esc(p.unidad||'PIEZA')} · Precio lista: <b>${money(p.precio)}</b></div><div class="card-actions"><a class="small wa-small" target="_blank" href="https://wa.me/${PHONE}?text=${text}">Cotizar</a><a class="small" href="#" onclick="navigator.clipboard.writeText('${escAttr(p.clave)}');return false;">Copiar clave</a></div></article>`; }
+function esc(s){return String(s||'').replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m]));}
+function escAttr(s){return String(s||'').replace(/'/g,'\'').replace(/"/g,'&quot;');}
+function render(){ const q=document.getElementById('q').value.trim().toUpperCase(); const cat=document.getElementById('cat').value; let arr=PRODUCTS.filter(p=>(!q||p.search.includes(q))&&(!cat||p.categoria===cat)); const sort=document.getElementById('sort').value; if(sort==='az')arr.sort((a,b)=>a.producto.localeCompare(b.producto)); if(sort==='clave')arr.sort((a,b)=>a.clave.localeCompare(b.clave)); if(sort==='precio')arr.sort((a,b)=>(b.precio||0)-(a.precio||0)); document.getElementById('count').textContent=arr.length.toLocaleString('es-MX')+' resultados'; document.getElementById('grid').innerHTML=arr.slice(0,300).map(card).join('') + (arr.length>300?`<div class="panel">Mostrando 300 de ${arr.length} resultados. Usa el buscador para filtrar.</div>`:''); }
+document.addEventListener('input',e=>{if(['q','cat','sort'].includes(e.target.id))render();}); init();
+</script>
+</body></html>
