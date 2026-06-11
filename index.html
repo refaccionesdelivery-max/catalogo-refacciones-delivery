@@ -21,7 +21,7 @@
 </style>
 </head>
 <body>
-<div class="topbar"><span>Refacciones nacionales e importadas · Envíos a toda la República Mexicana</span><a href="tel:+526181950701">Tel. 618 195 0701</a></div>
+<div class="topbar"><span>Refacciones nacionales e importadas · Envíos a toda la República Mexicana</span><a href="tel:+526183098635">Tel. 618 309 86 35</a></div>
 <header class="header">
   <div class="nav">
     <div class="brand"><img class="logo" src="logo-delivery.jpg" alt="Logo Refacciones Delivery"><div><div class="brand-title">REFACCIONES DELIVERY</div><div class="brand-sub">Catálogo digital de refacciones</div></div></div>
@@ -30,7 +30,7 @@
   <div class="badge">Catálogo digital · Público general · Talleres · Empresas · Flotillas</div>
   <h1>Refacciones para diésel, maquinaria y flotillas</h1>
   <div class="sub">Busca por número de parte, modelo, aplicación o descripción. Atendemos público general, talleres mecánicos, transportistas, constructoras, mineras y empresas con parque vehicular.</div>
-  <div class="actions"><a class="btn btn-primary" href="#catalogo">Buscar refacciones</a><a class="btn btn-wa" target="_blank" href="https://wa.me/526181950701?text=Hola%20Refacciones%20Delivery,%20quiero%20solicitar%20una%20cotizaci%C3%B3n">Cotizar por WhatsApp</a><a class="btn btn-dark" href="#credito">Crédito empresarial</a></div>
+  <div class="actions"><a class="btn btn-primary" href="#catalogo">Buscar refacciones</a><a class="btn btn-wa" target="_blank" href="https://wa.me/526183098635?text=Hola%20Refacciones%20Delivery,%20quiero%20solicitar%20una%20cotizaci%C3%B3n">Cotizar por WhatsApp</a><a class="btn btn-dark" href="#credito">Crédito empresarial</a></div>
 </header>
 <section class="stats">
   <div class="stat"><b>+993</b><span>productos en catálogo</span></div>
@@ -51,12 +51,12 @@
   </section>
   <section class="grid" id="grid"></section>
   <section class="panel" style="margin-top:26px"><div class="section-title"><h2>Marcas y aplicaciones frecuentes</h2></div><div class="brands"><span class="brandpill">Toyota Hilux</span><span class="brandpill">Mitsubishi L200</span><span class="brandpill">Ford Ranger</span><span class="brandpill">Ford F-450</span><span class="brandpill">CAT</span><span class="brandpill">Komatsu</span><span class="brandpill">John Deere</span><span class="brandpill">JCB</span><span class="brandpill">Kenworth</span><span class="brandpill">International</span><span class="brandpill">Isuzu</span><span class="brandpill">Hino</span></div></section>
-  <section class="panel credit" id="credito"><h2>Crédito empresarial para clientes frecuentes</h2><p>Para talleres, constructoras, transportistas, mineras y empresas con flotillas. Solicita evaluación de línea de crédito y abastecimiento recurrente de refacciones.</p><a class="btn btn-wa" target="_blank" href="https://wa.me/526181950701?text=Hola%20Refacciones%20Delivery,%20quiero%20informaci%C3%B3n%20sobre%20cr%C3%A9dito%20empresarial">Solicitar información</a></section>
+  <section class="panel credit" id="credito"><h2>Crédito empresarial para clientes frecuentes</h2><p>Para talleres, constructoras, transportistas, mineras y empresas con flotillas. Solicita evaluación de línea de crédito y abastecimiento recurrente de refacciones.</p><a class="btn btn-wa" target="_blank" href="https://wa.me/526183098635?text=Hola%20Refacciones%20Delivery,%20quiero%20informaci%C3%B3n%20sobre%20cr%C3%A9dito%20empresarial">Solicitar información</a></section>
 </main>
 <footer class="footer" id="contacto"><b>Refacciones Delivery</b> · Refacciones nacionales e importadas · Crédito empresarial · Envíos a toda la República · Atención por WhatsApp: <b>618 309 8635</b></footer>
-<a class="float-wa" target="_blank" href="https://wa.me/526181950701?text=Hola%20Refacciones%20Delivery,%20quiero%20cotizar%20una%20refacci%C3%B3n">💬<span>Cotizar por WhatsApp</span></a>
+<a class="float-wa" target="_blank" href="https://wa.me/526183098635?text=Hola%20Refacciones%20Delivery,%20quiero%20cotizar%20una%20refacci%C3%B3n">💬<span>Cotizar por WhatsApp</span></a>
 <script>
-let PRODUCTS=[]; const PHONE='526181950701';
+let PRODUCTS=[]; const PHONE='526183098635';
 const money=n=> n>0 ? '$'+Number(n).toLocaleString('es-MX',{minimumFractionDigits:2,maximumFractionDigits:2}) : 'Cotizar';
 async function init(){ PRODUCTS=await fetch('productos.json').then(r=>r.json()); buildCats(); render(); }
 function buildCats(){ const cats=[...new Set(PRODUCTS.map(p=>p.categoria).filter(Boolean))].sort(); const sel=document.getElementById('cat'); cats.forEach(c=>{let o=document.createElement('option');o.value=c;o.textContent=c;sel.appendChild(o)}); }
