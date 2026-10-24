@@ -1,0 +1,272 @@
+[
+  {
+    "image": "imagenes/productos/disco-freno-automotriz.webp",
+    "title": "Disco de freno automotriz",
+    "category": "Frenos",
+    "keywords": "disco freno"
+  },
+  {
+    "image": "imagenes/productos/espejos-laterales-automotrices.webp",
+    "title": "Espejos laterales automotrices",
+    "category": "Espejos",
+    "keywords": "espejo lateral"
+  },
+  {
+    "image": "imagenes/productos/espejo-lateral-tres-vistas.webp",
+    "title": "Espejo lateral automotriz · vista 1",
+    "category": "Espejos",
+    "keywords": "espejo lateral"
+  },
+  {
+    "image": "imagenes/productos/espejos-laterales-negros.webp",
+    "title": "Espejos laterales negros",
+    "category": "Espejos",
+    "keywords": "espejo lateral"
+  },
+  {
+    "image": "imagenes/productos/turbocharger-actuador-electronico.webp",
+    "title": "Turbocharger con actuador electrónico",
+    "category": "Turbos",
+    "keywords": "turbocharger turbo"
+  },
+  {
+    "image": "imagenes/productos/turbocharger-automotriz-detallado.webp",
+    "title": "Turbocharger automotriz",
+    "category": "Turbos",
+    "keywords": "turbocharger turbo"
+  },
+  {
+    "image": "imagenes/productos/turboalimentador-industrial.webp",
+    "title": "Turboalimentador industrial",
+    "category": "Turbos",
+    "keywords": "turboalimentador turbo"
+  },
+  {
+    "image": "imagenes/productos/turbo-industrial-plateado-1.webp",
+    "title": "Turbo industrial · imagen 1",
+    "category": "Turbos",
+    "keywords": "turbo industrial"
+  },
+  {
+    "image": "imagenes/productos/turbo-industrial-plateado-2.webp",
+    "title": "Turbo industrial · imagen 2",
+    "category": "Turbos",
+    "keywords": "turbo industrial"
+  },
+  {
+    "image": "imagenes/productos/modulo-bomba-gasolina-nissan.webp",
+    "title": "Módulo de bomba de gasolina Nissan",
+    "category": "Combustible",
+    "keywords": "Nissan bomba gasolina"
+  },
+  {
+    "image": "imagenes/productos/bomba-gasolina-nissan-np300.webp",
+    "title": "Bomba de gasolina Nissan NP300",
+    "category": "Combustible",
+    "keywords": "Nissan NP300 bomba gasolina"
+  },
+  {
+    "image": "imagenes/productos/bomba-tecnofuel-nissan-frontier.webp",
+    "title": "Módulo de bomba TecnoFuel · Nissan Frontier",
+    "category": "Combustible",
+    "keywords": "Nissan Frontier bomba gasolina"
+  },
+  {
+    "image": "imagenes/productos/cilindro-maestro-volvo-tdp.webp",
+    "title": "Cilindro maestro TDP · Volvo VN/VNL",
+    "category": "Clutch",
+    "keywords": "Volvo TDP306020028 cilindro maestro"
+  },
+  {
+    "image": "imagenes/productos/cilindro-maestro-clutch-volkswagen.webp",
+    "title": "Cilindro maestro de clutch Volkswagen",
+    "category": "Clutch",
+    "keywords": "Volkswagen clutch cilindro maestro"
+  },
+  {
+    "image": "imagenes/productos/modulo-bomba-combustible.webp",
+    "title": "Módulo de bomba de combustible",
+    "category": "Combustible",
+    "keywords": "bomba combustible"
+  },
+  {
+    "image": "imagenes/productos/soporte-central-transmision.webp",
+    "title": "Soporte central de transmisión",
+    "category": "Transmisión",
+    "keywords": "soporte cardan transmisión"
+  },
+  {
+    "image": "imagenes/productos/kit-refacciones-kohler.webp",
+    "title": "Kit de refacciones KOHLER",
+    "category": "Motores",
+    "keywords": "KOHLER kit mantenimiento"
+  },
+  {
+    "image": "imagenes/productos/maza-balero-l200-1.webp",
+    "title": "Maza y balero Mitsubishi L200 · imagen 1",
+    "category": "Suspensión y dirección",
+    "keywords": "L200 maza balero 40200A100P"
+  },
+  {
+    "image": "imagenes/productos/maza-balero-l200-2.webp",
+    "title": "Maza y balero Mitsubishi L200 · imagen 2",
+    "category": "Suspensión y dirección",
+    "keywords": "L200 maza balero 40200A100P"
+  },
+  {
+    "image": "imagenes/productos/sensor-denso-conector.webp",
+    "title": "Sensor automotriz Denso",
+    "category": "Sistema eléctrico",
+    "keywords": "sensor Denso"
+  },
+  {
+    "image": "imagenes/productos/kit-rebuild-camisa-piston.webp",
+    "title": "Kit de rebuild con camisa y pistón",
+    "category": "Motor",
+    "keywords": "camisa pistón rebuild"
+  },
+  {
+    "image": "imagenes/productos/cruceta-mitsubishi-original.webp",
+    "title": "Cruceta cardán Mitsubishi",
+    "category": "Transmisión",
+    "keywords": "Mitsubishi L200 cruceta cardan"
+  },
+  {
+    "image": "imagenes/productos/tensor-banda-febest-l200.webp",
+    "title": "Tensor de banda FEBEST · Mitsubishi L200",
+    "category": "Motor",
+    "keywords": "L200 Febest tensor 1345A119"
+  },
+  {
+    "image": "imagenes/productos/cable-freno-febest-l200.webp",
+    "title": "Cable de freno FEBEST · L200",
+    "category": "Frenos",
+    "keywords": "L200 Febest cable freno 4820A455"
+  },
+  {
+    "image": "imagenes/productos/cruceta-febest-l200-1.webp",
+    "title": "Cruceta cardán FEBEST · L200 · imagen 1",
+    "category": "Transmisión",
+    "keywords": "L200 Febest cruceta 37138W010P"
+  },
+  {
+    "image": "imagenes/productos/cruceta-febest-l200-2.webp",
+    "title": "Cruceta cardán FEBEST · L200 · imagen 2",
+    "category": "Transmisión",
+    "keywords": "L200 Febest cruceta 37138W000P"
+  },
+  {
+    "image": "imagenes/productos/cruceta-cardan-4x4-l200.webp",
+    "title": "Cruceta cardán 4x4 · Mitsubishi L200",
+    "category": "Transmisión",
+    "keywords": "L200 4x4 cruceta cardan"
+  },
+  {
+    "image": "imagenes/productos/bomba-inyeccion-diesel-alta-presion.webp",
+    "title": "Bomba de inyección diésel de alta presión",
+    "category": "Sistema de inyección",
+    "keywords": "bomba inyección diesel"
+  },
+  {
+    "image": "imagenes/productos/kit-embrague-automotriz.webp",
+    "title": "Kit de embrague automotriz",
+    "category": "Embrague",
+    "keywords": "kit clutch embrague"
+  },
+  {
+    "image": "imagenes/productos/bomba-direccion-hidraulica-l200.webp",
+    "title": "Bomba hidráulica · Mitsubishi L200",
+    "category": "Dirección hidráulica",
+    "keywords": "L200 bomba hidráulica dirección 49110W010P"
+  },
+  {
+    "image": "imagenes/productos/refacciones-ctp-industrial.webp",
+    "title": "Refacciones industriales CTP",
+    "category": "Maquinaria y minería",
+    "keywords": "CTP 3240123 2534347"
+  },
+  {
+    "image": "imagenes/productos/bomba-combustible-cat-2023.webp",
+    "title": "Bomba de transferencia CAT",
+    "category": "Maquinaria y minería",
+    "keywords": "CAT 384-8611 384-8612"
+  },
+  {
+    "image": "imagenes/productos/bomba-direccion-l200-publicidad.webp",
+    "title": "Bomba de dirección · Mitsubishi L200",
+    "category": "Dirección hidráulica",
+    "keywords": "Mitsubishi L200 bomba dirección"
+  },
+  {
+    "image": "imagenes/productos/goma-barra-estabilizadora-febest-1.webp",
+    "title": "Goma de barra estabilizadora FEBEST · imagen 1",
+    "category": "Suspensión y dirección",
+    "keywords": "L200 MSB-KL3TF Febest"
+  },
+  {
+    "image": "imagenes/productos/goma-barra-estabilizadora-febest-2.webp",
+    "title": "Goma de barra estabilizadora FEBEST · imagen 2",
+    "category": "Suspensión y dirección",
+    "keywords": "L200 MSB-KL3TF Febest"
+  },
+  {
+    "image": "imagenes/productos/alternador-automotriz-1.webp",
+    "title": "Componente eléctrico automotriz · imagen 1",
+    "category": "Sistema eléctrico",
+    "keywords": "alternador sistema eléctrico"
+  },
+  {
+    "image": "imagenes/productos/goma-barra-estabilizadora-febest-3.webp",
+    "title": "Goma de barra estabilizadora FEBEST · imagen 3",
+    "category": "Suspensión y dirección",
+    "keywords": "L200 MSB-KL3TF Febest"
+  },
+  {
+    "image": "imagenes/productos/componente-electrico-automotriz-2.webp",
+    "title": "Componente eléctrico automotriz · imagen 2",
+    "category": "Sistema eléctrico",
+    "keywords": "alternador sistema eléctrico"
+  },
+  {
+    "image": "imagenes/productos/goma-barra-estabilizadora-febest-4.webp",
+    "title": "Goma de barra estabilizadora FEBEST · imagen 4",
+    "category": "Suspensión y dirección",
+    "keywords": "L200 MSB-KL3TF Febest"
+  },
+  {
+    "image": "imagenes/productos/goma-barra-estabilizadora-febest-5.webp",
+    "title": "Goma de barra estabilizadora FEBEST · imagen 5",
+    "category": "Suspensión y dirección",
+    "keywords": "L200 MSB-KL3TF Febest"
+  },
+  {
+    "image": "imagenes/productos/goma-barra-estabilizadora-febest-6.webp",
+    "title": "Goma de barra estabilizadora FEBEST · imagen 6",
+    "category": "Suspensión y dirección",
+    "keywords": "L200 MSB-KL3TF Febest"
+  },
+  {
+    "image": "imagenes/productos/compresor-cat-501-1179.webp",
+    "title": "Compresor CAT · N/P 501-1179",
+    "category": "Maquinaria y minería",
+    "keywords": "CAT 501-1179 compresor"
+  },
+  {
+    "image": "imagenes/productos/bomba-transferencia-cat-384-8611.webp",
+    "title": "Bomba de transferencia CAT · N/P 384-8611 / 384-8612",
+    "category": "Maquinaria y minería",
+    "keywords": "CAT bomba transferencia 384-8611 384-8612"
+  },
+  {
+    "image": "imagenes/productos/inyectores-industriales.webp",
+    "title": "Inyectores diésel para maquinaria y flotillas",
+    "category": "Sistema de inyección",
+    "keywords": "inyectores Bosch CAT Isuzu"
+  },
+  {
+    "image": "imagenes/productos/filtros-jcb-varios.webp",
+    "title": "Variedad de filtros JCB",
+    "category": "Maquinaria y minería",
+    "keywords": "JCB filtro"
+  }
+]
